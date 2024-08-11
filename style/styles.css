@@ -156,7 +156,7 @@
 .bottom-left {
     display: grid;
     width: 45%;
-    grid-template-columns: 20% 60%;
+    grid-template-columns: 20% 80%;
     background: #3838385d;
     position: absolute;
     border: 1px solid #5454545d;
