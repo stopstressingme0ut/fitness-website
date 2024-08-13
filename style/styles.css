@@ -453,3 +453,57 @@
 .img-text p{
     color: darkgray;
 }
+
+.footer{
+    padding: 3rem 10rem;
+    background-color:#222222;
+}
+
+.footer-div{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    padding: 1rem 0;
+}
+
+.name h2{
+    color: #e6533c;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.name p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.get-started h4{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.get-started li{
+    list-style: none;
+    font-size: 1.2 rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer hr{
+    border: 1px solid #888888;
+}
+.copy-right{
+    text-align: center;
+    font-size: 15x;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+    padding: 20px 0;
+}
