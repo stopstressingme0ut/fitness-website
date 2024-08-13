@@ -1,0 +1,220 @@
+@media screen and (max-width:576px) {
+    .container {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .bg-color .navbar{
+        display: none;
+    }
+
+    .bg-color{
+        padding: 20px 30px;
+    }
+
+    .bg-color .mobile-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobile-header h3 {
+        font-weight: 800;
+        font-size: 35px;
+    }
+
+    .hero-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .left-content h1 {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 113%;
+        margin-top: 4rem;
+        margin-right: 110px;
+    }
+
+    .left-content p{
+     padding-right: 50px;
+    }
+
+    .hero-content .right-content img{
+        margin-left:100px;
+    }
+
+    .top-right-text{
+        margin-right: 10px;
+        padding: 13px;
+    }
+
+    .primary-btn{
+        padding: 15px 23px;
+        font-weight: 550;
+        font-size: 18px;
+    }
+
+    .secondary-btn{
+        padding: 15px 23px;
+        font-weight: 550;
+        font-size: 18px;
+    }
+
+    .habit-section{
+        padding: 0 0;
+        margin-top: -150px;
+    }
+
+    .text h3{
+        padding: 0 ;
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+    .text p{
+        padding: 5px -50px;
+    }
+    
+    .habit-parts{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+    }
+
+    .run-section{
+        padding: 2rem 0rem;
+    }
+
+    .run{
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .run h2 {
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    .image img{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 20px;
+        margin-top: 25px;
+    }
+ 
+    .run .primary-btn{
+        padding: 15px 129px;
+        font-weight: 600;
+    }
+
+    .bmi-section{
+        padding: 0px;
+    }
+    .bmi-text{
+        text-align: center;
+        padding: 100px 0;
+        margin-bottom: -100px;
+    }
+
+    .bmi-text h2 {
+        font-size: 29px;
+        font-weight: 800;
+    }
+
+    .bmi-text p{
+        padding-right:100px ;
+    }
+
+    .calculator{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .calculation{
+        padding: 20px 8px;
+    }
+    .left-calculator h4{
+        color: white;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .right-calculator h4{
+        margin-top: 40px;
+        font-size: 20px;
+        color: white;
+        margin-bottom: -20px;
+    }
+
+    .right-calculator p{
+        font-size: 16px;
+        margin: 2rem 0;
+    }
+
+    .calculator .primary-btn{
+        padding: 13px 70px;
+    }
+    
+    .meet-our-team{
+        padding: 0 0px;
+        padding-bottom: 50px;
+    }
+
+    .team-text h3{
+        font-size: 32px;
+        font-weight: 900;
+        padding-top: 40px;
+    }
+    
+    .team-text p{
+        font-size: 14px;
+        font-weight: 400;
+        margin: 20px 35px;
+    }
+    
+    .pictures{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        border-radius: 15px;
+    }
+
+    .trainer-text img{
+        width: 350px;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    .img-text{
+        color: white;
+        position: absolute;
+        left: 12%;
+        bottom: 8%;
+    }
+
+    .footer{
+        padding: 50px 0;
+    }
+
+    .footer-div{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding:  0;
+        gap: 2%;
+    }
+
+    .footer hr{
+        margin: 0 20px;
+        margin-top: 50px;
+    }
+
+    .copy-right{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        color:rgba(255, 255, 255, 0.5);
+        padding: 20px 0;
+    }
+}

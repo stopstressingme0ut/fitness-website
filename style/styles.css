@@ -40,6 +40,11 @@
     color: #e6533c;
 }
 
+.mobile-header{
+    display: none;
+}
+
+
 /* header style */
 
 /* navbar style */
@@ -208,7 +213,6 @@
 }
 
 .habit-section{
-    /* border: 1px solid red; */
     padding: 0 10rem;
     margin-top: -9rem;
     background-color: black;
@@ -502,7 +506,7 @@
 }
 .copy-right{
     text-align: center;
-    font-size: 15x;
+    font-size: 18px;
     font-weight: 400;
     color:rgba(255, 255, 255, 0.5);
     padding: 20px 0;
