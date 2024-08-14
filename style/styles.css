@@ -511,3 +511,60 @@
     color:rgba(255, 255, 255, 0.5);
     padding: 20px 0;
 }
+
+
+.review{
+    padding: 3rem 10rem;
+    background-color:black;
+    text-align: center;
+}
+
+.review-text{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.review-text h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.review-text p{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 10px 0;
+}
+
+.reviews{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.review1{
+    padding: 25px;
+    border-radius: 15px;
+    background: black;
+}
+
+.review1 img{
+    width: 150px;
+    border: 3px solid #e6533c;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.review1 h3{
+    color: azure;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.review1 h6{
+    color: #888888;
+}
+
+.review1 p{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 15px 0;
+}
